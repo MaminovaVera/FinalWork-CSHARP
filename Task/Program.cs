@@ -3,7 +3,7 @@
 // либо задать на старте выполнения алгоритма. 
 // При решение не рекомендуется пользоваться коллекциями, лучше обойтись исключительно массивами
 
-string[] SourceArray = new string[6] { "1239", "73", "smile", "wow", "algoritm" };
+string[] SourceArray = new string[6] { "1239", "73", "smile", "wow", "algoritm", "3" };
 string[] FinalArray = new string[SourceArray.Length];
 
 void SecondArrayWithIF(string[] SourceArray, string[] FinalArray)
