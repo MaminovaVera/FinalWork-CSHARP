@@ -6,7 +6,7 @@
 string[] SourceArray = new string[6] { "1239", "73", "smile", "wow", "algoritm", "3" };
 string[] FinalArray = new string[SourceArray.Length];
 
-void SecondArrayWithIF(string[] SourceArray, string[] FinalArray)
+void FormArrayOfStrings(string[] SourceArray, string[] FinalArray)
 {
     int count = 0;
     for (int i = 0; i < SourceArray.Length; i++)
@@ -26,5 +26,5 @@ void PrintArray(string[] array)
     }
     Console.WriteLine();
 }
-SecondArrayWithIF(SourceArray, FinalArray);
+FormArrayOfStrings(SourceArray, FinalArray);
 PrintArray(FinalArray);
